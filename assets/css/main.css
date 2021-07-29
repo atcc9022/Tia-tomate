@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e56353;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  padding: 200px;
+}
+header h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 70px;
+}
+header h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.section_1 {
+  background-color: #91918d;
+  color: #fff;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.section_1 .image {
+  text-align: center;
+  padding-top: 40px;
+}
+.section_1 p {
+  text-align: justify;
+  padding: 300px;
+  padding-top: 20px;
+  margin-bottom: -240px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.section_1 h3 {
+  padding-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.section_2 {
+  background-color: #fff;
+  color: #91918d;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.section_2 .image {
+  text-align: center;
+  padding-top: 40px;
+}
+.section_2 p {
+  text-align: justify;
+  padding: 300px;
+  padding-top: 20px;
+  margin-bottom: -240px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.section_2 h3 {
+  padding-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.section_nosotros {
+  display: flex;
+  flex-direction: column;
+}
+.section_nosotros h2 {
+  background-color: #e56353;
+  color: #fff;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.section_nosotros .image {
+  text-align: center;
+  padding-top: 40px;
+}
+.section_nosotros h3 {
+  padding-top: 20px;
+  color: #686963;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+.section_nosotros p {
+  text-align: justify;
+  color: #686963;
+  padding: 300px;
+  padding-top: 20px;
+  margin-bottom: -240px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contacto {
+  background-color: #e56353;
+  color: #fff;
+  padding-bottom: 100px;
+}
+.contacto h2 {
+  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+footer {
+  background-color: #686963;
+  padding-bottom: 100px;
+}
+footer img {
+  margin-top: 80px;
+  padding-bottom: -500px;
+}
+
+nav img {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #fafafa !important;
+  border-radius: 90px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  border-color: #686963 !important;
+}
+
+/*# sourceMappingURL=main.css.map */

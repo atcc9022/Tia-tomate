@@ -1,0 +1,16 @@
+@mixin tipografia {
+    font-family: $raleway-family;
+    font-weight: $bold;
+    font-size: $size_large;
+}
+
+@mixin tamaño {
+    padding: 300px;
+    padding-top: 20px;
+    margin-bottom: -240px;
+
+}
+
+@mixin tamaño {
+
+}

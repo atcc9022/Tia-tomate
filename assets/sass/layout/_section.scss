@@ -1,0 +1,122 @@
+// SECCION 1
+.section_1 {
+    background-color: $taupegray;
+    color: $blanco;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    .image{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    p{
+        text-align:justify;
+        padding: 300px;
+        padding-top: 20px;
+        margin-bottom: -240px;
+        font-family: $raleway-family;
+        font-size: 16px;
+        font-weight: $regular;
+    }
+
+    h3 {
+        padding-top: 20px;
+        font-family: $raleway-family;
+        font-weight: $bold;
+        font-size: $size_large;
+    }
+     
+}
+
+// SECCION 2
+.section_2 {
+    background-color: $blanco;
+    color: $taupegray;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    .image{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    p{
+        text-align:justify;
+        padding: 300px;
+        padding-top: 20px;
+        margin-bottom: -240px;
+        font-family: $raleway-family;
+        font-size: 16px;
+        font-weight: $regular;
+    }
+
+    h3 {
+        padding-top: 20px;
+        font-family: $raleway-family;
+        font-weight: $bold;
+        font-size: $size_large;
+    }
+   
+}
+
+// NOSOTROS 
+.section_nosotros {
+
+    display: flex;
+    flex-direction: column;
+
+    
+    h2 {
+    background-color: $jellybean;
+    color:  $blanco;
+    padding-bottom: 50px;
+    text-align:center;
+    padding-top: 50px;
+    }
+
+    .image{
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    h3 {
+        padding-top: 20px;
+        color:$granitegray;
+        font-family: $raleway-family;
+        font-weight: $bold;
+        font-size: $size_large;
+    }
+
+    p {
+        text-align:justify;
+        color:$granitegray;
+        @include tamaño; 
+        padding: 300px;
+        padding-top: 20px;
+        margin-bottom: -240px;
+        font-family: $raleway-family;
+        font-size: 16px;
+        font-weight: $regular;
+    }
+}
+
+// CONTACTO
+.contacto {
+   
+        background-color: $jellybean;
+        color:  $blanco;
+        padding-bottom: 100px;
+
+        h2 {
+            padding-bottom: 50px;
+            text-align:center;
+            padding-top: 50px;
+            font-family: $raleway-family;
+            font-weight: $bold;
+            font-size: $size_large;
+        }
+   
+}
